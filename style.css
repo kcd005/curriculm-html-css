@@ -1,0 +1,32 @@
+a:link, a:visited
+{
+    color: rgb(99, 4, 105);
+    text-decoration: none;
+}
+
+html
+{
+    background: rgb(207, 139, 207);
+}
+
+h1
+{
+    background : rgb(183, 105, 183);
+    border-style: solid;
+}
+
+h2
+{
+    background : rgb(183, 105, 183);
+    border-style: solid;
+}
+
+img
+{
+    border-style: solid;
+}
+
+hr
+{
+    background: black;
+}
