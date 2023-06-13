@@ -1,2 +1,2 @@
 # curriculm-html-css
-curriculum decorato usando css
+primo curriculum decorato usando css
