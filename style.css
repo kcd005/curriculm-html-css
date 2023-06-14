@@ -14,6 +14,7 @@ h1
     background : rgb(183, 105, 183);
     border-style: solid; 
     border-color: black; 
+    border-radius: 7px;
     color: rgb(250, 207, 247);
     text-shadow: 2px 2px 4px #000000;
     font-family: "Times New Roman", Times, serif;
@@ -24,9 +25,11 @@ h2
     background : rgb(183, 105, 183);
     border-style: solid;
     border-color: black;
+    border-radius: 7px;
     color: rgb(250, 207, 247);
     text-shadow: 2px 2px 4px #000000;
     font-family: "Times New Roman", Times, serif;
+    
 
 }
 
@@ -34,10 +37,28 @@ hr
 {
     background: black;
     border-color: black;
+    border-radius: 7px;
 }
 
 img
 {
     border-style: solid;
     box-shadow: 10px 10px;
+    border-radius: 20px;
+}
+
+.titoloTrinity
+{
+    background : rgb(20, 163, 96);
+    border-style: solid; 
+    border-color: black; 
+    border-radius: 7px;
+    color: rgb(201, 255, 212);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.classeCertificato
+{
+    background: rgb(128, 227, 134);
 }
