@@ -11,6 +11,10 @@ html
     background-attachment: fixed;
 }
 
+body {
+    overflow: overlay;
+}
+
 h1
 {
     background-color: rgba(255, 255, 255, 0.53);
