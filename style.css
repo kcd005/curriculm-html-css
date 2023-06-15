@@ -1,64 +1,118 @@
 a:link, a:visited
 {
-    color: rgb(99, 4, 105);
     text-decoration: none;
 }
 
 html
 {
-    background: rgb(207, 139, 207);
+    background-image: url("./images/sfondoFigo.png");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 h1
 {
-    background : rgb(183, 105, 183);
+    background: rgba(255, 255, 255, 0.3);
     border-style: solid; 
     border-color: black; 
     border-radius: 7px;
-    color: rgb(250, 207, 247);
-    text-shadow: 2px 2px 4px #000000;
-    font-family: "Times New Roman", Times, serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #636363;
+    font-family: Ubuntu, serif;
+    text-align: center;
+    padding: 2px 0px;
+    margin: 30px 150px;
 }
 
 h2
 {
-    background : rgb(183, 105, 183);
+    background: rgba(255, 255, 255, 0.3);
     border-style: solid;
     border-color: black;
     border-radius: 7px;
-    color: rgb(250, 207, 247);
-    text-shadow: 2px 2px 4px #000000;
-    font-family: "Times New Roman", Times, serif;
-    
-
-}
-
-hr
-{
-    background: black;
-    border-color: black;
-    border-radius: 7px;
+    padding: 10px 0px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #636363;
+    font-family: Signika, serif;
+    text-align: center;
+    margin: 30px 150px;
 }
 
 img
 {
     border-style: solid;
     box-shadow: 10px 10px;
-    border-radius: 20px;
-}
-
-.titoloTrinity
-{
-    background : rgb(20, 163, 96);
-    border-style: solid; 
-    border-color: black; 
-    border-radius: 7px;
-    color: rgb(201, 255, 212);
-    text-shadow: 2px 2px 4px #000000;
-    font-family: "Times New Roman", Times, serif;
+    border-radius: 500px;
 }
 
 .classeCertificato
 {
-    background: rgb(128, 227, 134);
+    background-image: url("./images/sfondoFigo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Ubuntu, serif;
+}
+
+div
+{
+    text-align: center;
+}
+
+ul 
+{
+    display: inline-block;
+    text-align: left;
+    font-family: mukta, sans-serif;
+}
+
+p
+{
+    text-align: center;
+    font-family: mukta, sans-serif;
+}
+
+a
+{
+    font-family: 'Gasoek One', sans-serif;
+}
+
+footer
+{
+    background-color: rgba(95, 158, 160, 0.53);
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+    padding-top: 20px;
+
+}
+
+.contatto
+{
+    padding-top: 20px;
+    font-size: x-large;
+    font-family: mukta, sans-serif;
+}
+
+#primo1
+{
+    margin-top: 150px;
+    font-size: x-large;
+    font-family: mukta, sans-serif;
+}
+
+#titolo-contatto
+{
+    margin: 30px 150px;
+}
+
+#indirizzo
+{
+    margin-bottom: 10px;
+}
+
+#trinity
+{    
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 5px 5px;
 }
