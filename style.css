@@ -5,7 +5,7 @@ a:link, a:visited
 
 html
 {
-    background-image: url("./images/sfondoFigo.png");
+    background-image: url("./images/sfondo2.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,12 +13,12 @@ html
 
 h1
 {
-    background: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.53);
     border-style: solid; 
     border-color: black; 
     border-radius: 7px;
     color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 4px #636363;
+    text-shadow: 2px 2px 10px #000000;
     font-family: Ubuntu, serif;
     text-align: center;
     padding: 2px 0px;
@@ -27,13 +27,13 @@ h1
 
 h2
 {
-    background: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.53);
     border-style: solid;
     border-color: black;
     border-radius: 7px;
     padding: 10px 0px;
     color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 4px #636363;
+    text-shadow: 2px 2px 10px #000000;
     font-family: Signika, serif;
     text-align: center;
     margin: 30px 150px;
@@ -42,21 +42,24 @@ h2
 img
 {
     border-style: solid;
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px 10px;
+    color:black;
     border-radius: 500px;
 }
 
 .classeCertificato
 {
-    background-image: url("./images/sfondoFigo.png");
+    background-image: url("./images/sfondo2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Ubuntu, serif;
+    
 }
 
 div
 {
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 ul 
@@ -64,17 +67,23 @@ ul
     display: inline-block;
     text-align: left;
     font-family: mukta, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px #000000;
 }
 
 p
 {
     text-align: center;
     font-family: mukta, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px #000000;
 }
 
 a
 {
     font-family: 'Gasoek One', sans-serif;
+    color: rgb(157, 157, 157);
+    text-shadow: 2px 2px 10px #000000;
 }
 
 footer
@@ -115,5 +124,8 @@ footer
 {    
     border-style: solid;
     border-radius: 0px;
-    box-shadow: 5px 5px;
+    box-shadow: 5px 5px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
